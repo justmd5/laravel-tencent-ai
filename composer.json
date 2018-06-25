@@ -1,0 +1,42 @@
+{
+    "name": "justmd5/laravel-tencent-ai",
+    "description": "腾讯AI开放平台sdk.",
+    "keywords": [
+        "tencent",
+        "tencent-ai",
+        "laravel tencent-ai",
+        "ai-sdk",
+        "sdk"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "丁海军",
+            "email": "heyjun2012@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justmd5\\LaravelTencentAi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Justmd5\\LaravelTencentAi\\ServiceProvider"
+            ],
+            "aliases": {
+                "TencentAi": "Justmd5\\LaravelTencentAi\\Facades\\AI"
+            }
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "justmd5/tencent-ai": "0.1"
+    },
+    "require-dev": {
+    }
+}

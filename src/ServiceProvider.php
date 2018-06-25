@@ -3,8 +3,9 @@
  * Created for laravel-tencent-ai
  * User: 丁海军
  * Date: 2018/6/25
- * Time: 上午9:50
+ * Time: 上午9:50.
  */
+
 namespace Justmd5\LaravelTencentAi;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
@@ -19,15 +20,15 @@ class ServiceProvider extends LaravelServiceProvider
      */
     protected $defer = true;
 
-    public function boot ()
+    public function boot()
     {
-        $this->publishes([realpath(__DIR__ . '/../publishes/config.php') => config_path('tencentai.php')], 'laravel-tencent-ai');
+        $this->publishes([realpath(__DIR__.'/../publishes/config.php') => config_path('tencentai.php')], 'laravel-tencent-ai');
     }
 
     /**
      * Register the provider.
      */
-    public function register ()
+    public function register()
     {
         $this->app->singleton(Ai::class, function () {
             return new Ai(config('tencentai'));
@@ -40,7 +41,7 @@ class ServiceProvider extends LaravelServiceProvider
      *
      * @return array
      */
-    public function provides ()
+    public function provides()
     {
         return [
             Ai::class,

@@ -3,10 +3,11 @@
 <p align="center">Tencent AI open platform sdk</p>
 
 <p align="center">
+<a href="https://styleci.io/repos/138533744"><img src="https://styleci.io/repos/138533744/shield?branch=master" alt="styleci"></a>
 <a href="https://packagist.org/packages/justmd5/laravel-tencent-ai"><img src="https://img.shields.io/packagist/php-v/justmd5/laravel-tencent-ai.svg" alt="PHP from Packagist"></a>
-<a href="https://packagist.org/packages/justmd5/laravel-tencent-ai"><img src="https://img.shields.io/github/stars/justmd5/laravel-tencent-ai.svg?style=social&label=Stars" alt="GitHub stars"></a>
 <a href="https://packagist.org/packages/justmd5/laravel-tencent-ai"><img src="https://poser.pugx.org/justmd5/laravel-tencent-ai/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/justmd5/laravel-tencent-ai"><img src="https://poser.pugx.org/justmd5/laravel-tencent-ai/v/unstable.svg" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/justmd5/laravel-tencent-ai"><img src="https://img.shields.io/github/stars/justmd5/laravel-tencent-ai.svg?style=social&label=Stars" alt="GitHub stars"></a>
 <a href="https://packagist.org/packages/justmd5/laravel-tencent-ai"><img src="https://img.shields.io/github/license/justmd5/laravel-tencent-ai.svg" alt="License"></a>
 </p>
 

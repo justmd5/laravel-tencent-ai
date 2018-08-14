@@ -25,10 +25,7 @@
         "laravel": {
             "providers": [
                 "Justmd5\\LaravelTencentAi\\ServiceProvider"
-            ],
-            "aliases": {
-                "TencentAi": "Justmd5\\LaravelTencentAi\\Facades\\AI"
-            }
+            ]
         }
     },
     "require": {

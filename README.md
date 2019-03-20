@@ -20,7 +20,7 @@
 ## Install
 in your laravel application, execute the following command:
 
-`composer require justmd5/laravel-tencent-ai:dev-master`
+`composer require justmd5/laravel-tencent-ai`
 ## Configure
 add service provider to the app.php:
 

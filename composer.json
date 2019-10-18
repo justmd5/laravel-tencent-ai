@@ -32,7 +32,7 @@
         "php": ">=7.0",
         "ext-curl": "*",
         "ext-json": "*",
-        "justmd5/tencent-ai": "~0.4"
+        "justmd5/tencent-ai": "~0.6"
     },
     "require-dev": {
     }
